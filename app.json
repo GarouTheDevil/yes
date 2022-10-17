@@ -49,6 +49,7 @@
     "SUDO_USERS": {
       "description": "List of sudo users separated by > ; <",
       "required": false
+}
     },
     "formation": {
         "worker": {

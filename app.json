@@ -49,6 +49,12 @@
     "SUDO_USERS": {
       "description": "List of sudo users separated by > ; <",
       "required": false
-    }
-  }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "heroku-20"
 }
